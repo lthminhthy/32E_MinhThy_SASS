@@ -1,0 +1,12 @@
+
+@import '../helpers/variables';
+@import '../helpers/mixin';
+
+.btn-primary {
+    @include button($text-s, $text-regular, $text-c1-light, $bg-c1-primary, 10px, 1px solid #b61984, 35px, $bg-c1-light , $text-c1-title);
+}
+
+// .btn-gradient {
+//     @extend .btn;
+//     background: linear-gradient(90deg, rgba(0, 206, 255, 1) 12%, rgba(6, 10, 210, 1) 99%);
+// }
